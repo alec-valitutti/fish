@@ -2,9 +2,9 @@ import pygame.font
 
  
 
-pygame.font.init()
 
-textFont = pygame.font.Font('../Assets/Fonts/Ubuntu-Medium.ttf',16)
+
+textFont = pygame.font.init()
 
  
 

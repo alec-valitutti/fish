@@ -6,13 +6,11 @@
 
 from typing import NamedTuple
 
-import pygame,ctypes,random,Font
+import pygame, ctypes,random,Font
 
  
 
 from pygame import font
-
- 
 
 user32 = ctypes.windll.user32
 
@@ -34,7 +32,7 @@ class fish(pygame.sprite.Sprite):
 
         pygame.sprite.Sprite.__init__(self)
 
-        self.image = pygame.image.load('../Assets/Images/fish.png').convert_alpha()
+        self.image = pygame.image.load('../Assets/Images/Fish.png').convert_alpha()
 
         self.image = pygame.transform.scale(self.image,(100,100))
 
