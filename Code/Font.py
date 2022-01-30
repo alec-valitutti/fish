@@ -4,8 +4,9 @@ import pygame.font
 
 
 
-textFont = pygame.font.init()
+pygame.font.init()
 
+textFont = pygame.font.Font('..\\Assets\\Fonts\\Ubuntu-Medium.ttf',16)
  
 
 def textWrite(text,font,color,surface,x,y):

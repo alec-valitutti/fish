@@ -46,7 +46,7 @@ class fish(pygame.sprite.Sprite):
 
         self.speed = random.randint(1,6)
 
-        Font.textWrite(self.Name,Font.textFont,(255,255,255),self.image,0,0)
+        Font.textWrite(self.Name, Font.textFont, (255,255,255) , self.image, 0,0)
 
         self.namePlate.fill((50,50,50))
 
